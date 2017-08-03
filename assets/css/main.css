@@ -2601,7 +2601,7 @@ table.alt tbody tr td {
   background-image: url("images/overlay.png"), url("images/bg.png");
   background-position: top left, center center;
   background-attachment: fixed, fixed;
-  background-size: auto, cover;
+  background-size: auto;
   height: 100vh;
   min-height: 35em; }
   #header input[type="submit"],
