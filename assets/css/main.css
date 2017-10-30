@@ -2854,6 +2854,34 @@ table.alt tbody tr td {
     -ms-transform: translateY(2em);
     transform: translateY(2em); } }
 
+#header.dark {
+  padding: 4.5em 0 2.5em 0 ;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-image: url("images/overlay.png"), url("images/pattern-size1.svg"), url("images/bg1.jpeg");
+  background-position: top left, center center;
+  background-attachment: fixed, fixed;
+  background-size: auto;
+  height: 100vh;
+  min-height: 35em; }
+  #header.dark .button.special {
+    color: #C24691 !important; }
+  @media screen and (max-width: 736px) {
+    #header.dark {
+      background-image: url("images/overlay.png"), url("images/pattern-size3.svg"), url("images/bg1-small.jpeg");
+      background-size: auto;
+      background-attachment: fixed; } }
+
 /* Main */
 #main {
   padding: 4em 0 2em 0 ; }
