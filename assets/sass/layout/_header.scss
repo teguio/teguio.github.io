@@ -217,7 +217,6 @@
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto;
-		height: 100vh;
 		min-height: 35em;
 		.button.special {
 			color: #C24691 !important;
@@ -227,4 +226,17 @@
 			background-size: auto;
 			background-attachment: fixed;
 		}
+}
+
+.big {
+	height: 90%;
+	flex-shrink: 1;
+	flex-basis: 300px;
+	flex-direction: column;
+}
+
+.big img {
+	flex-shrink: 1;
+	flex-grow: 0;
+
 }
